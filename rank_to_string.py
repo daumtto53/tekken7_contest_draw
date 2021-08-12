@@ -23,6 +23,8 @@ print(len(arr))
 
 string_list = arr.tolist()
 
+rank_list = ['1th, 2th, 3th, Initiate, Mentor, Expert, Grand Master, Brawler, Marauder, Fighter, Vanguard, Warrior, Vindicator, Juggernaut, Usurper, Vanquisher, Destroyer, Savior, Overlord, Genbu, Byakko, Seiryu, Suzaku, Mighty Ruler, Revered Ruler, Divine Ruler, Eternal Ruler, Fujin, Raijin, Yaksa, Ryujin, Emperor, Tekken King, Tekken God, True Tekken God, Tekken God Prime, Tekken God Omega']
+rank_list
 print('------------\n')
 for i in range(len(arr)) :
 	print(arr[i][0].split('/'))
