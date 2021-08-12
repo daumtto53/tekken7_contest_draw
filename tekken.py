@@ -19,7 +19,7 @@ import random
 
 def input_rawfile_name() :
 	print('엑셀 파일은 이 프로그램의 위치와 동일한 위치에 존재해야합니다.\n')
-	file_name = input('파일 이름을 확장자(.xlsx)를 제외하고 적어주세요 :')
+	file_name = input('파일 이름을 확장자(.xlsx)를 제외하고 적어주세요 : ')
 	print('\n');
 	return (file_name)
 
