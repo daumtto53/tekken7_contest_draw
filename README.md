@@ -141,9 +141,9 @@
 
 https://github.com/daumtto53/tekken7_contest_draw 에서 
 
-![사용설명서1](https://github.com/chemicat53/blogging_image/blob/main/img/사용설명서1.jpg?raw=true)
 
 
+![](C:\Users\MINSOO\Downloads\사용설명서1.jpg?raw=true)
 
 
 
@@ -151,7 +151,7 @@ https://github.com/daumtto53/tekken7_contest_draw 에서
 
 
 
-![사용설명서 2](https://github.com/chemicat53/blogging_image/blob/main/img/사용설명서 2.jpg?raw=true)
+![](https://github.com/chemicat53/blogging_image/blob/main/img/사용설명서2.jpg?raw=true)
 
 
 
@@ -169,9 +169,9 @@ https://github.com/daumtto53/tekken7_contest_draw 에서
 
 
 
-![사용설명서 3](https://github.com/chemicat53/blogging_image/blob/main/img/사용설명서 3.jpg?raw=true)
+![](https://github.com/chemicat53/blogging_image/blob/main/img/사용설명서4.jpg?raw=true)
 
-![사용설명서 4](https://github.com/chemicat53/blogging_image/blob/main/img/사용설명서 4.jpg?raw=true)
+![사용설명서3](https://github.com/chemicat53/blogging_image/blob/main/img/사용설명서3.jpg?raw=true)
 
 초기 실행시 이런화면이 뜨신다면 성공하신거고요
 
@@ -181,7 +181,7 @@ https://github.com/daumtto53/tekken7_contest_draw 에서
 
 
 
-![](https://github.com/chemicat53/blogging_image/blob/main/img/사용설명서 5.jpg?raw=true)
+![](https://github.com/chemicat53/blogging_image/blob/main/img/사용설명서5.jpg?raw=true)
 
 
 
