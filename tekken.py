@@ -31,7 +31,7 @@ def input_member_per_team() :
 def input_is_rank_word() :
 	is_rank_word = input('계급이 숫자로 되어있으면 1, 계급이 Vindicator, 1st처럼 영어면 2를 입력해주세요')
 	print('\n')
-	return (is_rank_word == 2)
+	return (int(is_rank_word) == 2)
 
 def create_arr_by_rank(num_per_draw , lst = []) :
 	new_list = []
