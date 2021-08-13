@@ -28,6 +28,11 @@ def input_member_per_team() :
 	print('\n')
 	return (mpt)
 
+def input_is_rank_word() :
+	is_rank_word = input('계급이 숫자로 되어있으면 1, 계급이 Vindicator, 1st처럼 영어면 2를 입력해주세요')
+	print('\n')
+	return (is_rank_word == 2)
+
 def create_arr_by_rank(num_per_draw , lst = []) :
 	new_list = []
 	competitor_count = len(lst)
@@ -109,8 +114,8 @@ def df_list_to_excel(lst = []) :
 
 
 member_per_team = int(input_member_per_team())
-
 df = pd.read_excel(input_rawfile_name() + '.xlsx')
+is_rank_word = input_is_rank_word()
 
 # making dict with tekken7 rank. keys : 0 to 36
 rank = '1th, 2th, 3th, Initiate, Mentor, Expert, Grand Master, Brawler, Marauder, Fighter, Vanguard, Warrior, Vindicator, Juggernaut, Usurper, Vanquisher, Destroyer, Savior, Overlord, Genbu, Byakko, Seiryu, Suzaku, Mighty Ruler, Revered Ruler, Divine Ruler, Eternal Ruler, Fujin, Raijin, Yaksa, Ryujin, Emperor, Tekken King, Tekken God, True Tekken God, Tekken God Prime, Tekken God Omega'
@@ -131,8 +136,12 @@ if is_draw_type_ranked == False:
 	for i in range(len(arr)) :
 		arr[i].append(0)
 else :
-	for i in range(len(arr)) :
-		arr[i].append(rank_dict[(arr[i][3])])
+	if is_rank_word == True :
+		for i in range(len(arr)) :
+			arr[i].append(rank_dict[(arr[i][3])])
+	else :
+		for i in range(len(arr)) :
+			arr[i].append(int(arr[i][3]))
 
 sorted_arr = sorted(arr, key=lambda x: x[4], reverse=True)
 print('\n\n')
